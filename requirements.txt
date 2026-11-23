@@ -1,0 +1,11 @@
+Flask
+pytest
+requests
+beautifulsoup4
+python-dotenv
+PyMuPDF
+numpy
+sentence-transformers
+google-genai
+APScheduler>=3.10,<4
+reportlab>=5.0,<6

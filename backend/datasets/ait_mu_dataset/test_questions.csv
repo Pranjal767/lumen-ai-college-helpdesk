@@ -1,0 +1,94 @@
+category,question,expected_answer
+Admissions,What documents are required for first year admission?,"SSC and HSC marksheets, MHT-CET/JEE scorecard, CAP allotment letter, leaving certificate, domicile/nationality, Aadhaar, photos, medical certificate, anti-ragging affidavit, bank passbook"
+Admissions,Which documents are needed for OBC candidates?,"Caste certificate, caste validity (or receipt + undertaking), Non-Creamy Layer certificate valid till 31 March 2028"
+Admissions,What is the eligibility for B.Tech admission?,"HSC with PCM, 45% (40% reserved), valid MHT-CET or JEE Main"
+Admissions,How many seats are in Computer Engineering?,120
+Admissions,What is the total intake of AIT?,390 seats
+Admissions,What is the last date for admission?,30 August 2027 (AICTE cut-off)
+Admissions,When do FE classes begin in 2027?,16 August 2027
+Admissions,What is DSE admission and who is eligible?,Direct Second Year for diploma holders with 45% (40% reserved) or B.Sc. with Maths
+Admissions,What documents do diploma students need?,"Diploma marksheets all semesters, SSC, leaving certificate plus standard docs"
+Admissions,What was last year's Computer Engineering cutoff?,94.5 percentile Open HU Round I
+Admissions,What is TFWS income limit?,"Rs. 8,00,000"
+Admissions,What is HU and OHU?,Home University seats vs Other Than Home University seats; HU 70% and OHU 30% of State Level
+Admissions,Do I need a migration certificate or eligibility certificate for CBSE?,"Yes, MU Eligibility Certificate; apply within 3 months"
+Admissions,What is the refund if I withdraw admission before cut-off?,"Full refund less Rs. 1,000"
+Admissions,Does AIT offer MCA and MMS?,"Yes, via MAH-MCA CET and MMS CET, 60 seats each"
+Admissions,When is CAP Round I allotment?,13 July 2027 (tentative)
+Admissions,What is the admission office timing?,Mon-Sat 10 AM to 4 PM; CAP season 9 AM to 6 PM daily
+Admissions,How long do I have for caste validity?,12 months
+Fees,What is the annual fee for Computer Engineering?,"Rs. 1,65,000 total (tuition 1,45,000)"
+Fees,What is the fee for Civil Engineering?,"Rs. 1,25,000"
+Fees,What is the last date for even semester fee payment?,15 January 2027 (revised; the old 31 Dec 2026 notice is superseded)
+Fees,What is the late fine for fees?,"Rs. 100/day for 1-7 days, Rs. 200/day for 8-15 days, then Rs. 5,000"
+Fees,Which scholarships are available?,"TFWS, Freeship, EBC, MahaDBT scholarships, AIT Merit Award, Girls in Tech Grant, Sports award"
+Fees,What is the last date for MahaDBT form submission?,30 November 2026
+Fees,Where do I submit the scholarship printout?,"Student Welfare Office, Room A-110"
+Fees,What is hostel fee?,"Rs. 48,000 (double) or Rs. 40,000 (triple) per year without mess; mess Rs. 42,000"
+Fees,How much is the bus pass?,"Rs. 20,000 per year"
+Fees,What is the fee for bonafide certificate?,Rs. 50
+Fees,Is tuition free for SC/ST students?,Reimbursed through Freeship/Post Matric scholarship
+Fees,How do I get a fee receipt?,Student Portal > Accounts > Receipts; duplicate Rs. 100
+Fees,Are fees payable in installments?,Two installments of 50%
+Fees,What are the caution and library deposits?,"Rs. 5,000 and Rs. 2,000 refundable"
+Examinations,When do end semester exams start?,2 December 2026
+Examinations,When do exams end?,18 December 2026
+Examinations,When is the Data Structures exam for SE Computer?,"Friday 4 December 2026, 10:30 AM to 1:30 PM"
+Examinations,When is the DBMS exam for TE Computer?,Tuesday 8 December 2026
+Examinations,When is Machine Learning exam for BE Computer?,Monday 7 December 2026
+Examinations,When are practical and oral exams?,23 to 30 November 2026
+Examinations,When are hall tickets available?,From 25 November 2026
+Examinations,What are exam timings?,"10:30 AM to 1:30 PM, reporting 10:00 AM"
+Examinations,What is the exam fee for regular students?,"Rs. 1,500 per semester"
+Examinations,Is the exam form still open?,"No, closed on 7 November with fine; later needs Principal approval and Rs. 2,000 fine"
+Examinations,What is the passing criteria?,"40% in each of IA, ESE, TW and practical/oral"
+Examinations,What are the IA and ESE marks?,IA 20 and ESE 80
+Examinations,How do I apply for revaluation?,"Photocopy first (Rs. 500) within 5 days, then revaluation (Rs. 700) within 5 days of photocopy"
+Examinations,What is ATKT?,Allowed To Keep Terms; progression with limited failed heads (up to 4 in FE); TE needs all FE cleared
+Examinations,What is the minimum attendance?,75%; condonation for 65-74% at Rs. 500 per subject
+Examinations,What are the exam hall rules?,"ID and hall ticket, no mobiles, entry until 11 AM, no exit before 12 noon"
+Examinations,What is grade O?,"80 and above, grade point 10"
+Examinations,When will results be declared?,Expected by 22 January 2027
+Examinations,What is the exam timetable for SE EXTC Signals and Systems?,Friday 11 December 2026
+Examinations,Who is the exam cell in-charge?,"Prof. Pooja Mehta, Room A-120"
+Timetable,When does the even semester begin?,4 January 2027
+Timetable,What is the last teaching day?,21 November 2026 (Saturday follows Friday timetable)
+Timetable,When is the winter break?,19 December 2026 to 3 January 2027
+Timetable,What are lecture timings?,Lecture 1 at 9:00 AM; lunch 1:15-2:00; practicals 2-4 PM
+Timetable,What is Monday's schedule for SE Computer Div A?,"Data Structures, Maths III, Discrete Structures, DLCA, then labs"
+Timetable,Who teaches Data Structures to SE Computer?,Dr. Meera Iyer
+Timetable,Is there a holiday on Republic Day?,"Yes, 26 January 2027; flag hoisting 8 AM"
+Timetable,When is the Diwali break?,7 to 14 November 2026
+Timetable,When is the internal test 1 in even semester?,22 to 26 February 2027
+Timetable,When is the summer vacation?,29 May to 1 August 2027
+Timetable,Who is the HOD of Computer Engineering?,Dr. Meera Iyer
+Timetable,When will the even semester timetable be displayed?,31 December 2026
+Timetable,How many batches are there per division for practicals?,"Three batches (A1, A2, A3)"
+Activities,When is Technovate 2027?,5 and 6 February 2027
+Activities,What is the Technovate hackathon prize?,"Rs. 50,000 winner, Rs. 25,000 runner-up; 24-hour hackathon"
+Activities,What is the last date to register for Technovate?,25 January 2027
+Activities,When is Aurang?,18 to 20 February 2027
+Activities,When is Sports Week?,11 to 16 January 2027
+Activities,When is the Generative AI talk?,"Saturday 28 November 2026, 10 AM, Seminar Hall"
+Activities,When is the blood donation camp?,26 November 2026
+Activities,When is the NSS winter camp?,"28 December 2026 to 3 January 2027, Panvel village"
+Activities,When is the alumni meet?,27 December 2026
+Activities,When are the Indradhanushya auditions?,12 and 13 January 2027
+Activities,When is the Avishkar college round?,22 January 2027
+Activities,Which companies are visiting for placements?,"Capgemini 25 Nov, Infosys 12 Jan, L&T 20 Jan, Accenture 3 Feb, TCS 17 Feb, Wipro 24 Feb"
+Activities,What was the highest package last year?,Rs. 28 LPA
+Activities,What are placement eligibility rules?,CGPI 6.0+ and no live backlog
+Activities,Which technical clubs are there?,"CodeCell, IEEE, CSI, AI Collective, RoboForge, Aurora Racing, ISTE, ACES"
+Activities,How many activity points are needed?,100
+Activities,What are library timings?,Mon-Sat 8:30 AM to 7 PM; exam days until 11 PM
+Activities,How do I get railway concession?,Form from Student Section Room A-103; free; same-day if submitted before noon
+Activities,When is the TE industrial visit?,19 January 2027
+Activities,What is hostel in-time for first years?,9:00 PM
+Activities,Who do I contact for anti-ragging complaints?,"Dr. Smita Joshi, anti-ragging@aurora-tech.example, UGC helpline 1800-180-5522"
+Should-refuse,What is the annual fee for BBA at AIT?,Not in data: no BBA program; bot should say it could not find this
+Should-refuse,Who won the Aurang 2026 Best Dancer?,Not in data
+Should-refuse,What is the cutoff for Computer Engineering in 2028?,Not in data
+Should-refuse,What is the Principal's mobile number?,Not in data (only office landline)
+Should-refuse,Is there a swimming pool on campus?,Not in data
+Should-refuse,What is the EXTC exam date for Semester VII?,Not in data
+Should-refuse,What is the weather in Vashi tomorrow?,Out of scope
