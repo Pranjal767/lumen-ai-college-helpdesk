@@ -44,16 +44,15 @@ From the repository root:
 
 Open <http://127.0.0.1:5000>. The API health check is at `/api/v1/health`.
 
-## Deploy for a public demo
+# Lumen AI — College Helpdesk
 
-The repository includes a Docker-based Render Blueprint in `render.yaml`. The image builds the frontend and creates the fictional demo database and vector index before the web service starts.
+An AI-powered college helpdesk that helps students find college-related information through intelligent retrieval, grounded responses, and source citations.
 
-1. Push the repository's `main` branch to GitHub.
-2. In Render, create a new Blueprint from the repository and apply `render.yaml`.
-3. Enter `GEMINI_API_KEY` and `GEMINI_MODEL` when Render requests the unsynced secrets.
-4. Wait for the deployment to pass its `/api/v1/health` check, then share the generated HTTPS URL.
+🚀 **Live Demo:** [Try Lumen AI](https://lumen-ai-college-helpdesk.onrender.com)
 
-The Blueprint uses Render's free web service in Singapore. Free services can sleep after 15 minutes without traffic and may take about a minute to wake. The demo corpus is built into each deployment, but SQLite conversation history is temporary and can reset when the service restarts. See [Render's free service limitations](https://render.com/docs/free).
+💻 **GitHub Repository:** [View Source Code](https://github.com/Pranjal767/lumen-ai-college-helpdesk)
+
+
 
 ### Frontend development mode
 
