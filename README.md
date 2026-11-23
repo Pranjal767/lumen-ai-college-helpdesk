@@ -49,6 +49,7 @@ Open <http://127.0.0.1:5000>. The API health check is at `/api/v1/health`.
 An AI-powered college helpdesk that helps students find college-related information through intelligent retrieval, grounded responses, and source citations.
 
 🚀 **Live Demo:** [Try Lumen AI](https://lumen-ai-college-helpdesk.onrender.com)
+The first session would fail or take some time to initialize as it is hosted on free tier render services
 
 💻 **GitHub Repository:** [View Source Code](https://github.com/Pranjal767/lumen-ai-college-helpdesk)
 
