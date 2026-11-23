@@ -11,6 +11,7 @@ from backend.services.chat import (
     ChatAnswer,
     Citation,
     CitationValidationError,
+    _build_retrieval_query,
     answer_question,
 )
 from backend.services.llm import (
@@ -91,6 +92,30 @@ def test_no_retrieved_evidence_returns_no_answer_without_calling_generator():
     assert result.answer == NO_ANSWER
     assert result.sources == []
     assert result.confidence == "low"
+
+
+@pytest.mark.parametrize(
+    ("question", "expected_terms", "unexpected_terms"),
+    [
+        (
+            "I need information about my courses and electives.",
+            {"course", "elective", "program", "curriculum", "subject", "semester"},
+            {"need", "information", "courses", "electives", "exam", "timetable"},
+        ),
+        (
+            "What events are coming up?",
+            {"event", "calendar", "upcoming", "annual", "activity", "festival"},
+            {"events"},
+        ),
+    ],
+)
+def test_retrieval_query_expands_course_and_event_intent(
+    question, expected_terms, unexpected_terms
+):
+    query_terms = set(_build_retrieval_query(question).split())
+
+    assert expected_terms <= query_terms
+    assert unexpected_terms.isdisjoint(query_terms)
 
 
 def test_answer_uses_only_validated_retrieved_citations():

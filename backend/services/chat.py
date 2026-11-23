@@ -25,11 +25,20 @@ _SMALL_TALK = {
 }
 _EXAM_WORDS = re.compile(
     r"\b(exam|exams|examination|examinations|timetable|time\s+table|"
-    r"schedule|paper|subject|semester|atkt|backlog|assessment|test|midterm|final)\b",
+    r"paper|atkt|backlog|assessment|test|midterm|final)\b",
+    re.IGNORECASE,
+)
+_COURSE_WORDS = re.compile(
+    r"\b(courses?|electives?|curricul(?:um|a)|syllabi|syllabus|subjects?)\b",
+    re.IGNORECASE,
+)
+_EVENT_WORDS = re.compile(
+    r"\b(events?|festivals?|activities|workshops?)\b",
     re.IGNORECASE,
 )
 _FILLER_WORDS = re.compile(
     r"\b(?:please|kindly|could you|can you|would you|tell me|let me know|"
+    r"i need information about|information about|show me|"
     r"i want to know|i would like to know|do you know|according to)\b",
     re.IGNORECASE,
 )
@@ -272,6 +281,10 @@ def _build_retrieval_query(question: str) -> str:
     cleaned = re.sub(r"\b(examinations?|exams?)\b", "exam", cleaned)
     cleaned = re.sub(r"\b(subjects?)\b", "subject", cleaned)
     cleaned = re.sub(r"\b(semesters?)\b", "semester", cleaned)
+    cleaned = re.sub(r"\b(courses?)\b", "course", cleaned)
+    cleaned = re.sub(r"\b(electives?)\b", "elective", cleaned)
+    cleaned = re.sub(r"\b(events?)\b", "event", cleaned)
+    cleaned = re.sub(r"\b(festivals?)\b", "festival", cleaned)
     terms = [
         token for token in re.findall(r"[a-z0-9]+", cleaned)
         if token not in _RETRIEVAL_STOP_WORDS
@@ -279,6 +292,17 @@ def _build_retrieval_query(question: str) -> str:
     terms = list(dict.fromkeys(terms))
     if _EXAM_WORDS.search(question):
         for term in ("exam", "timetable", "schedule", "date", "subject", "semester"):
+            if term not in terms:
+                terms.append(term)
+    if _COURSE_WORDS.search(question):
+        for term in ("course", "program", "branch", "curriculum", "subject", "elective", "semester"):
+            if term not in terms:
+                terms.append(term)
+    if _EVENT_WORDS.search(question):
+        for term in (
+            "event", "calendar", "upcoming", "annual", "activity", "festival",
+            "cultural", "technical", "social",
+        ):
             if term not in terms:
                 terms.append(term)
     return " ".join(terms) or question.lower()

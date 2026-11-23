@@ -11,9 +11,9 @@ import { checkBackend, listConversations, loadConversation, sendChatMessage, typ
 
 const shortcuts = [
   { label: "Upcoming Deadlines?", prompt: "What are my upcoming college deadlines?", icon: CalendarDays, tone: "cyan" },
-  { label: "Latest Notices?", prompt: "Show me the latest college notices.", icon: NotebookText, tone: "violet" },
+  { label: "Events & Notices?", prompt: "Summarize the latest college notices and upcoming campus events from the annual calendar, highlighting dates and details.", icon: NotebookText, tone: "violet" },
   { label: "Exam Schedule?", prompt: "Help me find my exam schedule.", icon: GraduationCap, tone: "blue" },
-  { label: "Course Information?", prompt: "I need information about my courses and electives.", icon: BookOpen, tone: "teal" },
+  { label: "Course Information?", prompt: "List the available programs, semester course examples, and any documented elective options.", icon: BookOpen, tone: "teal" },
   { label: "Internship / Placement Notices?", prompt: "Are there new internship or placement opportunities?", icon: UsersRound, tone: "pink" },
 ];
 
