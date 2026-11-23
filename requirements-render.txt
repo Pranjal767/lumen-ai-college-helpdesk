@@ -1,0 +1,10 @@
+Flask
+requests
+beautifulsoup4
+python-dotenv
+PyMuPDF
+numpy
+google-genai
+APScheduler>=3.10,<4
+reportlab>=5.0,<6
+gunicorn>=23,<24
